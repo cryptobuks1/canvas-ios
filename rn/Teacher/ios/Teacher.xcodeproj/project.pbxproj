@@ -45,6 +45,7 @@
 		7D630B6024A5003E0039A45D /* FileProviderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D630B5F24A5003E0039A45D /* FileProviderExtension.swift */; };
 		7D630B6224A5003E0039A45D /* FileProviderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D630B6124A5003E0039A45D /* FileProviderItem.swift */; };
 		7D630B6424A5003E0039A45D /* FileProviderEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D630B6324A5003E0039A45D /* FileProviderEnumerator.swift */; };
+		7D630B7324A53F7E0039A45D /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D630B7224A53F7E0039A45D /* Core.framework */; };
 		7D64A95D23620A27004EAEDF /* AttendanceStatusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A9532362092B004EAEDF /* AttendanceStatusController.swift */; };
 		7D64A95E23620A27004EAEDF /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A9542362092B004EAEDF /* AttendanceViewController.swift */; };
 		7D64A96023620A27004EAEDF /* DatePickerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A9562362092B004EAEDF /* DatePickerCollectionView.swift */; };
@@ -69,8 +70,6 @@
 		B15CA26D221DDEB40014FB02 /* TestsFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15CA26C221DDEB40014FB02 /* TestsFoundation.framework */; };
 		B15CA26F221DDF230014FB02 /* TeacherTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CA26E221DDF230014FB02 /* TeacherTestCase.swift */; };
 		B15CA29D221F16C90014FB02 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CA29C221F16C90014FB02 /* BundleExtensions.swift */; };
-		B15CAE7B25253081006BA9A4 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D630B7224A53F7E0039A45D /* Core.framework */; };
-		B15CAE7C25253081006BA9A4 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D630B7224A53F7E0039A45D /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B175D62623A96B0F00F8E696 /* IPadSpeedGraderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175D62523A96B0F00F8E696 /* IPadSpeedGraderTests.swift */; };
 		B17E1DB5238DA8550022EE0E /* SpeedGraderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E1DB4238DA8550022EE0E /* SpeedGraderUITests.swift */; };
 		B1992AAB2264D51200396A1F /* RoutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1992AAA2264D51200396A1F /* RoutesTests.swift */; };
@@ -151,17 +150,6 @@
 			files = (
 				E881134922FCA81B00354C59 /* Core.framework in Embed Frameworks */,
 				7DBF923B2269791600710D0F /* TestsFoundation.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B15CAE7D25253081006BA9A4 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B15CAE7C25253081006BA9A4 /* Core.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,7 +493,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15CAE7B25253081006BA9A4 /* Core.framework in Frameworks */,
+				7D630B7324A53F7E0039A45D /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,7 +829,6 @@
 				7D630B5924A5003E0039A45D /* Sources */,
 				7D630B5A24A5003E0039A45D /* Frameworks */,
 				7D630B5B24A5003E0039A45D /* Resources */,
-				B15CAE7D25253081006BA9A4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
